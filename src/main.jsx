@@ -4,11 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import CreateTrip from './create-trip'
-import Header from './components/ui/component/header'
 import { GoogleOAuthProvider } from '@react-oauth/google'
 import Viewtrip from './view-trip/[tripId]'
 import { Toaster } from 'sonner'
 import Mytrips from './my-trips'
+import Header from './components/ui/component/Header'
 
 
 
